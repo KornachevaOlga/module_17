@@ -20,7 +20,5 @@ class CreateTask(BaseModel):
     priority: int
 
 
-class UpdateTaskc(BaseModel):
-    title: str
-    content: str
-    priority: int
+class UpdateTask(CreateTask):
+    pass
